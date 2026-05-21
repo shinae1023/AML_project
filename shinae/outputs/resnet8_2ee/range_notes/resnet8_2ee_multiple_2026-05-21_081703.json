@@ -1,0 +1,505 @@
+{
+  "model": "resnet8_2ee",
+  "dataset": "cifar10",
+  "thresholds": {
+    "min_thr": 0.1,
+    "max_thr": 2.0,
+    "step": 0.1
+  },
+  "test_vals": [
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.115,
+            0.885
+          ],
+          "accu_pc": [
+            0.9852173913043478,
+            0.7742372881355932
+          ],
+          "exit_threshs": [
+            0.1,
+            1000000
+          ],
+          "combined_accuracy": 0.7985
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.1882,
+            0.8118
+          ],
+          "accu_pc": [
+            0.9776833156216791,
+            0.7568366592756837
+          ],
+          "exit_threshs": [
+            0.2,
+            1000000
+          ],
+          "combined_accuracy": 0.7984
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.248,
+            0.752
+          ],
+          "accu_pc": [
+            0.9713709677419354,
+            0.7414893617021276
+          ],
+          "exit_threshs": [
+            0.30000000000000004,
+            1000000
+          ],
+          "combined_accuracy": 0.7985
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.3009,
+            0.6991
+          ],
+          "accu_pc": [
+            0.9574609504818876,
+            0.7275067944500071
+          ],
+          "exit_threshs": [
+            0.4,
+            1000000
+          ],
+          "combined_accuracy": 0.7967
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.3556,
+            0.6444
+          ],
+          "accu_pc": [
+            0.9443194600674916,
+            0.7144630664183736
+          ],
+          "exit_threshs": [
+            0.5,
+            1000000
+          ],
+          "combined_accuracy": 0.7962
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.4089,
+            0.5911
+          ],
+          "accu_pc": [
+            0.9273661041819515,
+            0.7008966333953646
+          ],
+          "exit_threshs": [
+            0.6,
+            1000000
+          ],
+          "combined_accuracy": 0.7935
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.4681,
+            0.5319
+          ],
+          "accu_pc": [
+            0.9040803247169408,
+            0.6865952246662906
+          ],
+          "exit_threshs": [
+            0.7000000000000001,
+            1000000
+          ],
+          "combined_accuracy": 0.7884
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.53,
+            0.47
+          ],
+          "accu_pc": [
+            0.8824528301886793,
+            0.6668085106382978
+          ],
+          "exit_threshs": [
+            0.8,
+            1000000
+          ],
+          "combined_accuracy": 0.7811
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.5934,
+            0.4066
+          ],
+          "accu_pc": [
+            0.856757667677789,
+            0.6512543039842598
+          ],
+          "exit_threshs": [
+            0.9,
+            1000000
+          ],
+          "combined_accuracy": 0.7732000000000001
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.6518,
+            0.3482
+          ],
+          "accu_pc": [
+            0.8355323718932188,
+            0.6352670878805284
+          ],
+          "exit_threshs": [
+            1.0,
+            1000000
+          ],
+          "combined_accuracy": 0.7658
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.7093,
+            0.2907
+          ],
+          "accu_pc": [
+            0.8172846468349076,
+            0.6185070519435845
+          ],
+          "exit_threshs": [
+            1.1,
+            1000000
+          ],
+          "combined_accuracy": 0.7595
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.7671,
+            0.2329
+          ],
+          "accu_pc": [
+            0.7952027115108852,
+            0.6015457277801631
+          ],
+          "exit_threshs": [
+            1.2000000000000002,
+            1000000
+          ],
+          "combined_accuracy": 0.7501
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.8176,
+            0.1824
+          ],
+          "accu_pc": [
+            0.7766634050880626,
+            0.587171052631579
+          ],
+          "exit_threshs": [
+            1.3000000000000003,
+            1000000
+          ],
+          "combined_accuracy": 0.7421
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.8677,
+            0.1323
+          ],
+          "accu_pc": [
+            0.7592485882217356,
+            0.5797430083144369
+          ],
+          "exit_threshs": [
+            1.4000000000000001,
+            1000000
+          ],
+          "combined_accuracy": 0.7354999999999999
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.9135,
+            0.0865
+          ],
+          "accu_pc": [
+            0.7434044882320744,
+            0.5710982658959538
+          ],
+          "exit_threshs": [
+            1.5000000000000002,
+            1000000
+          ],
+          "combined_accuracy": 0.7284999999999999
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.9451,
+            0.0549
+          ],
+          "accu_pc": [
+            0.7312453708602265,
+            0.5792349726775956
+          ],
+          "exit_threshs": [
+            1.6,
+            1000000
+          ],
+          "combined_accuracy": 0.7229000000000001
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.9688,
+            0.0312
+          ],
+          "accu_pc": [
+            0.7214079273327828,
+            0.5608974358974359
+          ],
+          "exit_threshs": [
+            1.7000000000000002,
+            1000000
+          ],
+          "combined_accuracy": 0.7163999999999999
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.9852,
+            0.0148
+          ],
+          "accu_pc": [
+            0.7138652050345108,
+            0.5540540540540541
+          ],
+          "exit_threshs": [
+            1.8000000000000003,
+            1000000
+          ],
+          "combined_accuracy": 0.7115
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    },
+    {
+      "conf_metrics": {
+        "_thr_entropy": {
+          "exit_pc": [
+            0.995,
+            0.005
+          ],
+          "accu_pc": [
+            0.7094472361809046,
+            0.62
+          ],
+          "exit_threshs": [
+            1.9000000000000001,
+            1000000
+          ],
+          "combined_accuracy": 0.709
+        }
+      },
+      "num_exits": 2,
+      "num_samples": 10000,
+      "batch_size": 500,
+      "accu_per_exit": [
+        0.7077,
+        0.7986
+      ]
+    }
+  ]
+}

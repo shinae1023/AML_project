@@ -1,0 +1,31 @@
+
+#######################################
+
+Testing results: for resnet8_2ee @ 2026-05-21_080733 on dataset cifar10:
+{
+  "conf_metrics": {
+    "_thr_entropy": {
+      "exit_pc": [
+        0.0,
+        1.0
+      ],
+      "accu_pc": [
+        NaN,
+        0.7986
+      ],
+      "exit_threshs": [
+        0.0,
+        1000000
+      ],
+      "combined_accuracy": NaN
+    }
+  },
+  "num_exits": 2,
+  "num_samples": 10000,
+  "batch_size": 1,
+  "accu_per_exit": [
+    0.7077,
+    0.7986
+  ]
+}
+my_scratch_resnet

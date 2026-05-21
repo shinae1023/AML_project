@@ -1,0 +1,35 @@
+
+#######################################
+
+Testing results: for b_alexnet_cifar @ 2026-05-21_073833 on dataset cifar10:
+{
+  "conf_metrics": {
+    "_thr_entropy": {
+      "exit_pc": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "accu_pc": [
+        NaN,
+        NaN,
+        0.7743
+      ],
+      "exit_threshs": [
+        0.0,
+        0.0,
+        1000000
+      ],
+      "combined_accuracy": NaN
+    }
+  },
+  "num_exits": 3,
+  "num_samples": 10000,
+  "batch_size": 1,
+  "accu_per_exit": [
+    0.7357,
+    0.768,
+    0.7743
+  ]
+}
+my_scratch_alexnet
